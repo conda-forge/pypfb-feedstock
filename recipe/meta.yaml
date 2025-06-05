@@ -1,4 +1,4 @@
-{% set version = "0.5.30" %}
+{% set version = "0.5.32" %}
 
 package:
   name: pypfb
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pypfb/pypfb-{{ version }}.tar.gz
-  sha256: 7bcb16444898246bf445b5efad5c672af8d23a7a5dcfeeaca1ac13c40d502175
+  sha256: 8c382731f16da8afd70a8dc3cba2474e1bd890a71bb217402d057a13311e7da4
 
 build:
   number: 0
