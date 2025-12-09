@@ -15,7 +15,7 @@ build:
   number: 1
   noarch: python
   script:
-    - sed -i '/gen3 = /d' pyproject.toml
+    - sed -i '/gen3 \= /d' pyproject.toml
     - ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
     entry_points:
