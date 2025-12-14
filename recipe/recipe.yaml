@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.5.32
+  version: "0.5.33"
 
 package:
   name: pypfb
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pypfb/pypfb-${{ version }}.tar.gz
-  sha256: 8c382731f16da8afd70a8dc3cba2474e1bd890a71bb217402d057a13311e7da4
+  sha256: 00b1a78b75d670b9dcdb85dfac78dce10594834ad8cd2e89ae60fdd3efad017b
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script:
     - sed -i '/gen3= /d' pyproject.toml
