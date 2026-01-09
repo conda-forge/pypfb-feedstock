@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.5.33"
+  version: "0.6.2"
 
 package:
   name: pypfb
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pypfb/pypfb-${{ version }}.tar.gz
-  sha256: 00b1a78b75d670b9dcdb85dfac78dce10594834ad8cd2e89ae60fdd3efad017b
+  sha256: 2656e6a5eb0394d94234681beb68057ff6d105036cfaccb7315ff29f7b83c33c
 
 build:
   number: 0
